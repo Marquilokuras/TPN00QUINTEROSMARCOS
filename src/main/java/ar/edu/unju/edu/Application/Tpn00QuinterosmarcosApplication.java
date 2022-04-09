@@ -15,12 +15,12 @@ public class Tpn00QuinterosmarcosApplication {
 	     
 	    System.out.println("HOLA EDM, dice " + nombre + " " + darNombre());
 	     
-	    ESTUDIANTE unEstudiante = new Estudiante();
+	    Estudiante unEstudiante = new Estudiantes;
 	     
-	    unESTUDIANTE.setDni("45085907");
-	    unESTUDIANTE.setNombre("MARCOS QUINTEROS");
+	    unEstudiante.setDni("45085907");
+	    unEstudiante.setNombre("MARCOS QUINTEROS");
 	     
-	    System.out.println("El Estudiante  " + unESTUDIANTE.getNombre + " dice HOLA!");
+	    System.out.println("El Estudiante  " + unEstudiante.getNombre + " dice HOLA!");
 	    
 	    public static String darNombre() {
 	    	
