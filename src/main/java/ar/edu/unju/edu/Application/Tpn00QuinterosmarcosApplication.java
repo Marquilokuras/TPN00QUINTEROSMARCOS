@@ -1,7 +1,7 @@
 package ar.edu.unju.edu.Application;
 
 import ar.edu.unju.edm.model.Calculadora;
-import ar.edu.unju.edm.model.Estudiante;
+//import ar.edu.unju.edm.model.Estudiante;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,26 +10,27 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Tpn00QuinterosmarcosApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Tpn00QuinterosmarcosApplication.class, args);	        
+		SpringApplication.run(Tpn00QuinterosmarcosApplication.class, args);	 
+		
 		// PRIMERA ACTIVIDAD COLOCAR NOMBRE Y MOSTRAR POR PANTALLA
 	       
-	    String nombre = "Marcos";
+	  //  String nombre = "Marcos";
 	     
-	    System.out.println("HOLA EDM, dice " + nombre + " " + darNombre());
+	//    System.out.println("HOLA EDM, dice " + nombre + " " + darNombre());
 	     
-	    Estudiante unEstudiante = new Estudiantes;
+	  //  Estudiante unEstudiante = new Estudiantes;
 	     
-	    unEstudiante.setDni("45085907");
-	    unEstudiante.setNombre("MARCOS QUINTEROS");
+	 //   unEstudiante.setDni("45085907");
+	   // unEstudiante.setNombre("MARCOS QUINTEROS");
 	     
-	    System.out.println("El Estudiante  " + unEstudiante.getNombre + " dice HOLA!");
+	   // System.out.println("El Estudiante  " + unEstudiante.getNombre + " dice HOLA!");
 	    
-	    public static String darNombre() {
+	   // public static String darNombre() {
 	    	
-	    	String nuevoNombre = "Quinteros";
+	    //	String nuevoNombre = "Quinteros";
 	    	
-	    	return nuevoNombre;
-	    }
+	    //	return nuevoNombre;
+	   // }
 	        
 
 	    /* 	Clase
@@ -43,6 +44,8 @@ public class Tpn00QuinterosmarcosApplication {
 	    System.out.println("El resultado de la Resta es: " + unCalculadora.ResolverResta());
 	    System.out.println("El resultado de la Multiplicacion es: " + unCalculadora.ResolverMulti());
 	    System.out.println("El resultado de la Division es: " + unCalculadora.ResolverDivision());
+	    System.out.println("El resultado de la Potencia es: " + unCalculadora.ResolverPotencia());
+	    System.out.println("El resultado de la Division es: " + unCalculadora.ResolverRaiz());
 
 	
 	}
