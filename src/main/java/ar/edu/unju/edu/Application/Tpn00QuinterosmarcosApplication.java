@@ -1,6 +1,8 @@
 package ar.edu.unju.edu.Application;
 
 import ar.edu.unju.edm.model.Calculadora;
+import ar.edu.unju.edm.model.Estudiante;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -30,9 +32,9 @@ public class Tpn00QuinterosmarcosApplication {
 	    }
 	        
 
-	    // Clase
-	    // SEGUNDA ACTIVIDADAD REALIZAR UNA CALCULADORA
-	    
+	    /*Clase
+	     SEGUNDA ACTIVIDADAD REALIZAR UNA CALCULADORA
+	    */
 	    Calculadora unCalculadora = new Calculadora(); // Metodo Construccion
 	    unCalculadora.setNumero1(10);
 	    unCalculadora.setNumero2(2);
@@ -44,9 +46,5 @@ public class Tpn00QuinterosmarcosApplication {
 	
 	}
 
-	private static String darNombre() {
-		// TODO Auto-generated method stub
-		return null;
-	}
 
 }
