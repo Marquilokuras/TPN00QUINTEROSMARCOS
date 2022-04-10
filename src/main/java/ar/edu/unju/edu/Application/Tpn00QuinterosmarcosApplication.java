@@ -32,9 +32,10 @@ public class Tpn00QuinterosmarcosApplication {
 	    }
 	        
 
-	    /*Clase
-	     SEGUNDA ACTIVIDADAD REALIZAR UNA CALCULADORA
+	    /* 	Clase
+	      	SEGUNDA ACTIVIDADAD REALIZAR UNA CALCULADORA
 	    */
+	    
 	    Calculadora unCalculadora = new Calculadora(); // Metodo Construccion
 	    unCalculadora.setNumero1(10);
 	    unCalculadora.setNumero2(2);
