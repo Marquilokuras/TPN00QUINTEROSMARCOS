@@ -1,4 +1,4 @@
-package ar.edu.unju.edm.controller;
+package ar.edu.unju.edu.Application;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -25,7 +25,7 @@ public class CalculadoraController {
 		nuevaCalculadora.ResolverSuma();
 		resultadoS = nuevaCalculadora.ResolverSuma();
 		model.addAttribute("resultadoS", resultadoS);
-		return "resultadoS";
+		return "resultado";
 	}
 	
 	@GetMapping("/calculoResta")
@@ -37,7 +37,7 @@ public class CalculadoraController {
 		nuevaCalculadora.ResolverResta();
 		resultadoR = nuevaCalculadora.ResolverResta();
 		model.addAttribute("resultadoR", resultadoR);
-		return "resultadoR";
+		return "resultado";
 	}
 
 	@GetMapping("/calculoMulti")
@@ -49,7 +49,7 @@ public class CalculadoraController {
 		nuevaCalculadora.ResolverMulti();
 		resultadoM = nuevaCalculadora.ResolverMulti();
 		model.addAttribute("resultadoM", resultadoM);
-		return "resultadoM";
+		return "resultado";
 	}
 	
 	@GetMapping("/calculoDivision")
@@ -61,10 +61,10 @@ public class CalculadoraController {
 		nuevaCalculadora.ResolverDivision();
 		resultadoD = nuevaCalculadora.ResolverDivision();
 		model.addAttribute("resultadoD", resultadoD);
-		return "resultadoD";
+		return "resultado";
 	}
 	
-	@GetMapping("/calculoSPotencia")
+	@GetMapping("/calculoPotencia")
 	public String getPotenciaPage(@RequestParam (name = "num1") int num1 , @RequestParam (name = "num2") int num2, Model model) {
 		int resultadoP = 0;
 		Calculadora nuevaCalculadora = new Calculadora();
@@ -85,7 +85,7 @@ public class CalculadoraController {
 		nuevaCalculadora.ResolverRaiz();
 		resultadoRA = nuevaCalculadora.ResolverRaiz();
 		model.addAttribute("resultadoRA", resultadoRA);
-		return "resultadoRA";
+		return "resultado";
 	}
 	
 
