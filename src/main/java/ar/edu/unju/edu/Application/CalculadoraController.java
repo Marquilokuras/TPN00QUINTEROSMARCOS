@@ -73,7 +73,7 @@ public class CalculadoraController {
 		nuevaCalculadora.ResolverPotencia();
 		resultadoP = nuevaCalculadora.ResolverPotencia();
 		model.addAttribute("resultadoP", resultadoP);
-		return "resultadoP";
+		return "resultado";
 	}
 	
 	@GetMapping("/calculoRaiz")
